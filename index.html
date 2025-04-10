@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Which F1 Driver Are You?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="start-screen" class="screen active">
+      <h1>Which F1 Driver Are You?</h1>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="question-screen" class="screen">
+      <div id="question-container">
+        <h2 id="question-text">Question Text</h2>
+        <div id="answer-buttons" class="btn-group">Button</div>
+      </div>
+    </div>
+
+    <div id="result-screen" class="screen">
+      <h2>You are...</h2>
+      <div id="result-driver"></div>
+      <div id="driver-description"></div>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
